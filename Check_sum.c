@@ -24,6 +24,7 @@ int main(){
             if(sum[i]=='1') sum[i]='0';
             else{
                 sum[i]='1';
+                carry=0;
                 break;
             }
         }

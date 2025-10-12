@@ -12,9 +12,9 @@ int main(){
         sleep(5);
         if(wait>5){
             i--;
-            continue;
+        }else{
+            printf("\nAck recieved for frame %d",i);
         }
-        printf("\nAck recieved for frame %d",i);
     }
 
     return 0;
