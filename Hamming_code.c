@@ -9,6 +9,8 @@ int main(){
     scanf("%d",&data[5]);
     scanf("%d",&data[6]);
 
+
+    
     //p1 covers bits: 1,3,5,7 position:0,2,4,6
     //p2 covers bits: 2,3,6,7 position:1,2,5,6
     //p4 covers bits: 4,5,6,7 position:3,4,5,6
